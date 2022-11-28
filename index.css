@@ -6,13 +6,23 @@ html, body{
     text-align: center;
     background-image: url("images/table.png");
     background-size: cover;
+    color: white;
+    font-weight: bold;
 }
 h1 {
     color: goldenrod;
 }
-p{
-    color:white;
-}
+
 .message-el{
     font-style: italic;
+}
+button{
+    color: #016f32;
+    font-size: 15px;
+    font-weight: bold;
+    width: 200px;
+   padding: 10px 0px;
+    background: goldenrod;
+    border: none;
+    border-radius: 5px ;
 }
