@@ -8,7 +8,7 @@ let messageEl = document.getElementById("message-el")
 let sumEl = document.getElementById("sum-el")
 let cardEl = document.getElementById("card-el")
 
-console.log(messageEl)
+
 function startGame(){ 
     cardEl.textContent = `Card: ${firstCard} ${seconedCard}`
     sumEl.textContent = `Sum: ${sum}`
@@ -22,5 +22,8 @@ hasBlackJack  = true
 isAlive= false
 }
 messageEl.textContent = message
+}
+function newCard(){
+ console.log("Drawing a new card from the deck!")
 }
 // CASH OUT!
