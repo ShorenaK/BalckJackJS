@@ -21,8 +21,16 @@ button{
     font-size: 15px;
     font-weight: bold;
     width: 200px;
-   padding: 10px 0px;
+    padding: 10px 0px;
     background: goldenrod;
     border: none;
     border-radius: 5px ;
+    margin: 2px 0px;
 }
+/* .btn{
+  display: flex;
+  flex-direction: column;
+  /* justify-content: flex-start; */
+  /* align-items: center; */
+ 
+/* } */ 
