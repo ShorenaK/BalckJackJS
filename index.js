@@ -32,6 +32,8 @@ function renderGame(){
   cardEl.textContent = `Card: `
   
   for (let i =0; i < cards.length; i ++){
+    // + = it adds the number otherwise will arrise the pre value
+    // + " "  gives the space [items, in , the , array]
 cardEl.textContent +=  cards[i] + " "
     }
 
@@ -49,10 +51,11 @@ messageEl.textContent = message
 }
 
 function newCard(){
-  let card = getRandomCard()
+  if (isAlive === true && hasBlackJack === false){
+    let card = getRandomCard()
     sum += card 
     cards.push(card)
-    console.log(cards)
-   renderGame()
+    renderGame()
+  }
  
 }
